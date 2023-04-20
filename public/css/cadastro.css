@@ -1,0 +1,68 @@
+.cadastro{
+    display: flex;
+    justify-content: center;
+    font-family: "Shantell Sans";
+    font-size: 20px;
+}
+
+.cadastro__itens{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 30vw;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.cadastro__itens__label{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.cadastro__itens__input{
+    border-radius: 10px;
+    height: 30px;
+    font-size: 25px;
+    font-family: "Work Sans";
+}
+
+.cadastro__itens__botao{
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro__itens__botao__cadastrar, .cadastro__itens__botao__login{
+    width: 20vw;
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 15px;
+    border:none;
+    background-color: rgba(29, 173, 113, 0.418);
+    font-size: 20px;
+}
+
+.cadastro__itens__link{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.erro__div{
+    display: flex;
+    justify-content: center;
+}
+
+.erro__div__p{
+    margin-top: 50px;
+    font-size: 30px;
+    font-size: "Shantell Sans";
+    color: rgb(0, 82, 48);
+}
+
+@media (max-width: 500px) {
+    
+    .cadastro__itens__botao__cadastrar{
+        width: 30vw;
+    }
+
+}

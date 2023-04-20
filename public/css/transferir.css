@@ -1,0 +1,77 @@
+.campos{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.campos__form{
+    margin-top: 100px;
+}
+
+.campos__fieldset{
+    border-radius: 30px;
+
+}
+
+.campos__fieldset legend{
+    font-size: 30px;
+    font-family: "Shantell Sans";
+}
+
+.campos__transferir label{
+    padding: 20px 0 5px;
+    font-size: 30px;
+    font-family: "Shantell Sans";
+}
+
+.campos__transferir{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.campos__transferir__input{
+    height: 30px;
+    font-size: 25px;
+    font-family: "Work Sans";
+}
+
+.campos__transferir__botao{
+    margin: 20px 0;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(29, 173, 113, 0.418);
+    border:none;
+    font-family: "Work Sans";
+}
+
+.campos__transferir__div__botao{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.info__flex__position p{
+    margin-right: 15px;
+    margin-top: 10px;
+    text-align: start;
+    font-size: 30px;
+    font-family:"Work Sans";
+}
+
+@media (max-width: 500px) {
+    .campos__transferir__input{
+        width: 200px;
+    }
+    
+    .info{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,52 @@
+.info{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 20px 0 0;
+}
+
+.info__flex__position p{
+    font-size: 30px;
+    font-family: "Work Sans";
+    margin-top:10px ;
+}
+
+.campos{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.campos__itens{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: "Shantell Sans";
+}
+
+.campos__itens__input{
+    height: 30px;
+    width: 30vw;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.campos__itens__botao__div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.campos__itens__botao{
+    font-size: 20px;
+    height: 70px;
+    width: 200px;
+    border-radius: 20px;
+    border: none; 
+    background-color: rgba(29, 173, 113, 0.418);  
+}
+
+@media (max-width: 500px) {
+    .campos__itens__input{
+        width: 200px;
+    }
+}

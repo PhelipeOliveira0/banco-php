@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    background-color: azure;
+    align-items: center;
+}
+
+.header__miniaturaBank{
+    width: 70px;
+    margin: 8px 0;    
+}
+
+.header__logout{
+    font-size: 30px;
+    font-family: "Work Sans";
+}
+
+.header__logout__link{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+}
+
+.header__logout__link__p{
+    font-size: 30px;
+    color: black;
+    margin-right: 10px;
+}
+
+.header__logout__link__img{
+    width: 30px;
+}

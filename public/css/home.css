@@ -1,0 +1,81 @@
+.main__info{
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Work Sans";
+}
+
+.main__flex__position{
+    flex-direction: column;
+}
+
+.main__flex__position p{
+    font-size: 30px;
+}
+
+.main__info p{
+    margin-right: 15px;
+    margin-top: 10px;
+    text-align: start;
+}
+
+.main__tranzacoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100vw;
+}
+
+.main__tranzacoes a{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 100px;
+    margin: 0 20px;
+    border: 1px solid rgb(175, 227, 243);
+    border-radius: 40px;
+    background-color: rgb(175, 227, 243);
+    color: rgb(23, 54, 54);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Work Sans";
+}
+
+.main__banco{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.main__banco__depositar{
+    padding: 100px;
+    margin: 50px 0;
+    border-radius: 30px;
+    font-size: 30px;
+    font-family: "Work Sans";
+    color: rgb(233, 191, 5);
+    background-color: rgb(255, 255, 147);
+    text-decoration: none;
+}
+
+
+@media (max-width: 500px) {
+    .main__info{
+        justify-content: center;
+    }
+
+
+
+    .main__tranzacoes{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .main__tranzacoes a{
+        margin-bottom: 30px;
+    }
+
+}
