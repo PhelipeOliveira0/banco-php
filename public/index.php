@@ -4,10 +4,10 @@
 
     use php\ProjetoBanco\models\{Conta,ContaCorrente,ContaSalario};
     use php\ProjetoBanco\controllers\{ControllerCadastroView,ControllerLoginView,ControllerHomeView,ControllerTransferirView,ControllerSacarView,ControllerBancoView,ControllerEscolhaView,
-        ControllerCadastrar,ControllerLogin,ControllerEscolhaSalario,ControllerLogout,ControllerTransferir,depositarPost,ControllerEscolhaCorrente,ControllerSacar};
+        ControllerCadastrar,ControllerLogin,ControllerEscolhaSalario,ControllerLogout,ControllerTransferir,depositarPost,ControllerEscolhaCorrente,ControllerSacar,Controller404View};
 
     $username = "root";
-    $password = "uma senha muito boa";
+    $password = "mulhersapatona";
 
     $pdo = new PDO('mysql:host=localhost;dbname=banco', $username, $password);
     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
@@ -19,9 +19,10 @@
         $classControll = $routes[$url];
         $class = new $classControll($pdo);
         $class->http();
-    }
-
-    if($url === "/"){
+    }else if($url === "/"){
         $home = new ControllerHomeView($pdo);
         $home->http();
+    }else{
+        $erro404 = new Controller404View($pdo);
+        $erro404->http();
     }

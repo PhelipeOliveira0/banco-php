@@ -2,7 +2,7 @@
 
 use php\ProjetoBanco\models\{Conta,ContaCorrente,ContaSalario};
 use php\ProjetoBanco\controllers\{ControllerCadastroView,ControllerLoginView,ControllerTransferirView,ControllerSacarView,ControllerBancoView,ControllerEscolhaView,ControllerCadastrar,
-    ControllerLogin, ControllerEscolhaSalario,ControllerLogout,ControllerTransferir,ControllerBanco,ControllerEscolhaCorrente,ControllerSacar};
+    ControllerLogin, ControllerEscolhaSalario,ControllerLogout,ControllerTransferir,ControllerBanco,ControllerEscolhaCorrente,ControllerSacar,Controller404View};
 
     $routes = [
         "/cadastro" => ControllerCadastroView::class,

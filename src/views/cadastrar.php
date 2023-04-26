@@ -32,9 +32,9 @@
             <label class="cadastro__itens__label" for="fCpf">CPF</label>
             <input class="cadastro__itens__input" required type="text" name="fCpf" id="fCpf" placeholder="XXX.XXX.XXX-XX" pattern="(\d{3}\.\d{3}\.\d{3}-\d{2})">
             <label class="cadastro__itens__label" for="fSenha">Senha</label>
-            <input class="cadastro__itens__input" required type="password" name="fSenha" id="fSenha" placeholder="••••••••••••••••••••">
+            <input class="cadastro__itens__input" required type="password" name="fSenha" id="fSenha" minlength="10" placeholder="••••••••••••••••••••">
             <label class="cadastro__itens__label" for="fSenhaConfirme">Confirme a sua senha</label>
-            <input class="cadastro__itens__input" required type="password" name="fSenhaConfirme" id="fSenhaConfirme" placeholder="••••••••••••••••••••">
+            <input class="cadastro__itens__input" required type="password" name="fSenhaConfirme" id="fSenhaConfirme" minlength="10" placeholder="••••••••••••••••••••">
             <div class="cadastro__itens__botao">
                 <input class="cadastro__itens__botao__cadastrar" type="submit" value="Cadastrar">
             </div>

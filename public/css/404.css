@@ -1,0 +1,10 @@
+.erro{
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+}
+
+.erro__msg{
+    font-family: "Shantell Sans";
+    font-size: 20vw;
+}
