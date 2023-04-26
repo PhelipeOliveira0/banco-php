@@ -7,7 +7,7 @@
         ControllerCadastrar,ControllerLogin,ControllerEscolhaSalario,ControllerLogout,ControllerTransferir,depositarPost,ControllerEscolhaCorrente,ControllerSacar,Controller404View};
 
     $username = "root";
-    $password = "mulhersapatona";
+    $password = "uma senha meneira";
 
     $pdo = new PDO('mysql:host=localhost;dbname=banco', $username, $password);
     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
